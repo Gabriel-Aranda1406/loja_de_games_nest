@@ -14,11 +14,11 @@ import { ProdutoModule } from './produto/produto.module';
       username: 'root',
       password: 'rootroot',
       database: 'db_lojadegames',
-      entities: [Categoria, Produto],
+      entities: [Produto, Categoria],
       synchronize: true,
     }),
-    CategoriaModule,
-    ProdutoModule
+    ProdutoModule,
+    CategoriaModule
   ],
   controllers: [],
   providers: [],
